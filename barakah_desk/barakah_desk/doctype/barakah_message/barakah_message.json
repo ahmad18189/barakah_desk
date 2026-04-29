@@ -1,0 +1,158 @@
+{
+ "actions": [],
+ "creation": "2026-04-28 20:26:14.770025",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "predefined_key",
+  "message_title",
+  "message_ar",
+  "message_en",
+  "category",
+  "active",
+  "is_predefined",
+  "weight",
+  "is_quran",
+  "is_hadith",
+  "source_type",
+  "source_reference",
+  "translation_source",
+  "source_grade",
+  "verified",
+  "verified_by",
+  "verified_on"
+ ],
+ "fields": [
+  {
+   "fieldname": "predefined_key",
+   "fieldtype": "Data",
+   "label": "Predefined Key",
+   "unique": 1
+  },
+  {
+   "fieldname": "message_title",
+   "fieldtype": "Data",
+   "label": "Message Title"
+  },
+  {
+   "fieldname": "message_ar",
+   "fieldtype": "Text",
+   "label": "Message Arabic"
+  },
+  {
+   "fieldname": "message_en",
+   "fieldtype": "Text",
+   "label": "Message English"
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Link",
+   "label": "Category",
+   "options": "Barakah Message Category"
+  },
+  {
+   "default": "1",
+   "fieldname": "active",
+   "fieldtype": "Check",
+   "label": "Active"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_predefined",
+   "fieldtype": "Check",
+   "label": "Is Predefined"
+  },
+  {
+   "default": "1",
+   "fieldname": "weight",
+   "fieldtype": "Int",
+   "label": "Weight"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_quran",
+   "fieldtype": "Check",
+   "label": "Is Qur'an"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_hadith",
+   "fieldtype": "Check",
+   "label": "Is Hadith"
+  },
+  {
+   "default": "General",
+   "fieldname": "source_type",
+   "fieldtype": "Select",
+   "label": "Source Type",
+   "options": "General\nQur\u2019an\nHadith\nProverb\nCustom"
+  },
+  {
+   "fieldname": "source_reference",
+   "fieldtype": "Data",
+   "label": "Source Reference"
+  },
+  {
+   "fieldname": "translation_source",
+   "fieldtype": "Data",
+   "label": "Translation Source"
+  },
+  {
+   "fieldname": "source_grade",
+   "fieldtype": "Data",
+   "label": "Source Grade"
+  },
+  {
+   "default": "0",
+   "fieldname": "verified",
+   "fieldtype": "Check",
+   "label": "Verified"
+  },
+  {
+   "fieldname": "verified_by",
+   "fieldtype": "Link",
+   "label": "Verified By",
+   "options": "User",
+   "read_only": 1
+  },
+  {
+   "fieldname": "verified_on",
+   "fieldtype": "Datetime",
+   "label": "Verified On",
+   "read_only": 1
+  }
+ ],
+ "links": [],
+ "modified": "2026-04-28 21:28:08.738841",
+ "modified_by": "Administrator",
+ "module": "Barakah Desk",
+ "name": "Barakah Message",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "read": 1,
+   "role": "System Manager",
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "All",
+   "share": 1
+  }
+ ],
+ "read_only": 1,
+ "row_format": "Dynamic",
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "message_title",
+ "track_changes": 1,
+ "translated_doctype": 1
+}

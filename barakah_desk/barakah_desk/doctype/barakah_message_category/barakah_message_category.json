@@ -1,0 +1,18 @@
+{
+ "actions": [],
+ "autoname": "field:category_name",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": ["category_name","description","enabled_by_default","sort_order"],
+ "fields": [
+  {"fieldname":"category_name","fieldtype":"Data","label":"Category Name","reqd":1,"unique":1},
+  {"fieldname":"description","fieldtype":"Small Text","label":"Description"},
+  {"fieldname":"enabled_by_default","fieldtype":"Check","label":"Enabled By Default","default":"1"},
+  {"fieldname":"sort_order","fieldtype":"Int","label":"Sort Order"}
+ ],
+ "module": "Barakah Desk",
+ "name": "Barakah Message Category",
+ "permissions": [{"read":1,"write":1,"create":1,"delete":1,"role":"System Manager"}],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

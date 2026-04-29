@@ -1,0 +1,10 @@
+﻿category_name,description,enabled_by_default,sort_order
+Qur’an,Exact Qur’an text records. Seed rows are placeholders and must be verified before activation.,1,10
+Hadith,Exact Hadith text records. Seed rows are placeholders and must be verified before activation.,1,20
+Islamic Reminder,Original Islamic reminders without Qur’an/Hadith attribution.,1,30
+Motivational,Original motivational workplace messages.,1,40
+Work Ethics,"Original messages about honesty, quality, responsibility, and service.",1,50
+Patience & Gratitude,"Original messages about patience, gratitude, and steadiness.",1,60
+Productivity,"Original messages about focus, planning, and execution.",1,70
+Leadership,"Original messages about leadership, accountability, and service.",1,80
+General Wisdom,Original general wisdom and proverb-style messages.,1,90

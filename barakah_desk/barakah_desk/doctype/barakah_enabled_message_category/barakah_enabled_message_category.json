@@ -1,0 +1,14 @@
+{
+ "actions": [],
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "istable": 1,
+ "field_order": ["category","enabled"],
+ "fields": [
+  {"fieldname":"category","fieldtype":"Link","label":"Category","options":"Barakah Message Category"},
+  {"fieldname":"enabled","fieldtype":"Check","label":"Enabled","default":"1"}
+ ],
+ "module": "Barakah Desk",
+ "name": "Barakah Enabled Message Category"
+}

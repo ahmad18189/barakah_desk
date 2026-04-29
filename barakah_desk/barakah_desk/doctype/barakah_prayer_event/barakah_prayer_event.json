@@ -1,0 +1,15 @@
+{
+ "actions": [],
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "istable": 1,
+ "field_order": ["prayer_name","enabled","alert_before_minutes"],
+ "fields": [
+  {"fieldname":"prayer_name","fieldtype":"Select","label":"Prayer Name","options":"Fajr\nSunrise\nDhuhr\nAsr\nMaghrib\nIsha"},
+  {"fieldname":"enabled","fieldtype":"Check","label":"Enabled","default":"1"},
+  {"fieldname":"alert_before_minutes","fieldtype":"Int","label":"Alert Before Minutes","default":"0"}
+ ],
+ "module": "Barakah Desk",
+ "name": "Barakah Prayer Event"
+}
