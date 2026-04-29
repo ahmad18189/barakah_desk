@@ -35,14 +35,14 @@ From your bench directory:
 
 ```bash
 cd /path/to/frappe-bench
-bench get-app https://github.com/YOUR_ORG/barakah_desk.git
+bench get-app https://github.com/ahmad18189/barakah_desk.git
 ```
 
 If you are installing from a specific branch:
 
 ```bash
 cd /path/to/frappe-bench
-bench get-app https://github.com/YOUR_ORG/barakah_desk.git --branch main
+bench get-app https://github.com/ahmad18189/barakah_desk.git --branch main
 ```
 
 ### Install On A Site
