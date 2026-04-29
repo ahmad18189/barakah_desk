@@ -1,3 +1,4 @@
+
 # Barakah Desk
 
 **Prayer alerts and mindful reminders for Frappe Desk.**
@@ -13,6 +14,8 @@ Barakah Desk is a lightweight Frappe/ERPNext app that brings a calm Islamic rhyt
 Modern ERP systems help teams manage tasks, sales, finance, HR, inventory, and operations. Barakah Desk adds something different: a gentle reminder that work is also an amanah, time is a blessing, and prayer has priority.
 
 It is built for Muslim-friendly workplaces, Islamic organizations, schools, charities, companies, and teams that want Frappe Desk to feel more aligned with their values.
+<img width="523" height="607" alt="Screenshot 2026-04-29 at 9 13 51 AM" src="https://github.com/user-attachments/assets/69d283c5-1e26-442f-b65f-58b6df79c131" />
+<img width="671" height="607" alt="Screenshot 2026-04-29 at 9 13 59 AM" src="https://github.com/user-attachments/assets/2f49d642-ec39-4c15-a4f1-50fb0da0c9ca" />
 
 ## Installation
 
